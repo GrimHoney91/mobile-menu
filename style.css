@@ -1,0 +1,176 @@
+html {
+    font-size: 10px;
+    background-color: grey;
+    width: 412px;
+    min-height: 915px;
+    margin: auto;
+}
+body {
+    margin: auto;
+    width: 412px;
+    min-height: 915px;
+    background-color: white;
+}
+header {
+    height: 10rem;
+    background-color: dodgerblue;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4);
+}
+#inputDiv {
+    background-color: white;
+    width: 96%;
+    height: 47%;
+    margin: auto;
+    margin-bottom: 0rem;
+    display: flex;
+    flex-direction: row;
+    border-radius: 2px;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4);
+}
+#searchBar {
+    width: 70%;
+    height: 94%;
+    display:block;
+    outline: none;
+    border: none;
+}
+.imgDivs {
+    width: 8%;
+    height: 60%;
+    background-color: white;
+    margin: auto;
+}
+img {
+    cursor: pointer;
+    display: block;
+}
+#searchIcon {
+    background-image: url('images/search-icon.png');
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+#micIcon {
+    background-image: url('images/mic-icon.png');
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+}
+#nav {
+    width: 100%;
+    height: 47%;
+    margin: auto;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    display: flex;
+    flex-direction: row;
+}
+.iconDivs {
+    width: 25%;
+    height: 95%;
+}
+.iconDivs:hover {
+    cursor: pointer;
+}
+.iconDivs:hover .navImages {
+    transform: scale(1.1);
+}
+#messagesDiv {
+    border-bottom: 2px solid white;
+}
+.navImages {
+    display: block;
+    height: 2rem;
+    margin: auto;
+    margin-top: 1.5rem;
+}
+main {
+    min-height: 915px;
+    position: relative;
+}
+#btnContainer {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 58rem;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.subBtnContainers, .labels {
+    display: none;
+}
+.subBtnContainers, .plusBtnContainer {
+    margin-top: 2rem;
+    position: relative;
+}
+.subBtnContainers:hover, .plusBtnContainer:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.labels {
+    background-color: white;
+    width: 9rem;
+    height: 3rem;
+    border-radius: 2px;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4);
+    line-height: 3rem;
+    text-align: center;
+    font-size: 1.75rem;
+    position: absolute;
+    top: 20%;
+    left: -12rem;
+}
+#plus, .subBtns {
+    height: 5.5rem;
+    width: 5.5rem;
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 3rem;
+    background-color: dodgerblue;
+    cursor: pointer;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.4);
+}
+#plus {
+    background-image: url('images/plus.png');
+    background-position: center;
+    background-size: 2.5rem;
+    background-repeat: no-repeat;
+}
+#plus:hover, .subBtns:hover {
+    transform: scale(1.1);
+}
+.subBtns {
+    width: 4.5rem;
+    height: 4.5rem;
+}
+#compose {
+    background-image: url('images/compose.png');
+    background-position: center;
+    background-size: 3rem;
+    background-repeat: no-repeat;
+}
+#attachment {
+    background-image: url('images/paperclip.png');
+    background-position: center;
+    background-size: 3rem;
+    background-repeat: no-repeat;
+}
+#camera {
+    background-image: url('images/camera.png');
+    background-position: center;
+    background-size: 3rem;
+    background-repeat: no-repeat;
+}
+#faide {
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: auto;
+    width: 412px;
+    min-height: 915px;
+    position: fixed;
+    top: 0rem;
+    display: none;
+}
