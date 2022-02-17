@@ -1,14 +1,15 @@
 html {
     font-size: 10px;
     background-color: grey;
-    width: 412px;
-    min-height: 915px;
+    width: 100vw;
+    min-height: 100vh;
     margin: auto;
 }
+/* yo */
 body {
     margin: auto;
-    width: 412px;
-    min-height: 915px;
+    width: 100vw;
+    min-height: 100vh;
     background-color: white;
 }
 header {
@@ -93,7 +94,7 @@ main {
 #btnContainer {
     position: fixed;
     bottom: 1.5rem;
-    right: 58rem;
+    right: 1rem;
     display: flex;
     flex-direction: column-reverse;
 }
